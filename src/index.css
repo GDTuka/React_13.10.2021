@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.mainWetherDiv{
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  background-color: #bbb;
+  display: flex;
+  justify-content: space-around;
+}
+.wetherLooks{
+  height: 500px;
+  width: 300px;
+  background-color: blue;
+  color: white;
+  font-size: large;
+}
+.wether{
+  width: 300px;
+  height: calc(100px);
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 2px;
+  border-style: solid;
+  margin-top: 10px  ;
+}
